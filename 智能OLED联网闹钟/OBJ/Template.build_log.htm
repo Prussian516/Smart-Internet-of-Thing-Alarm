@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ye Owen, HP Inc., LIC=585FJ-UPLDR-WF9I7-E34L9-CKLDN-N9BA7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DARMSTM.DLL V1.66.0.1
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TARMSTM.DLL   V1.65.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Owen\Desktop\stm32\rtc\USER\Template.uvprojx
+Project File Date:  09/13/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling main.c...
+..\HARDWARE\0.96OLED4PINI2C.h(13): warning:  #1295-D: Deprecated declaration IIC_start - give arg types
+  void IIC_start();  //I2C?ô¶??Åº?
+..\HARDWARE\0.96OLED4PINI2C.h(14): warning:  #1295-D: Deprecated declaration IIC_stop - give arg types
+  void IIC_stop();   // I2C??Ö¹?Åº?
+main.c(15): warning:  #177-D: variable "temp_str" was declared but never referenced
+  	char temp_str[12];
+main.c(16): warning:  #177-D: variable "damp_str" was declared but never referenced
+  	char damp_str[12];
+main.c(17): warning:  #177-D: variable "sec" was declared but never referenced
+  	char sec[2];
+main.c(18): warning:  #177-D: variable "temp" was declared but never referenced
+  	float temp=0;
+main.c(19): warning:  #177-D: variable "damp" was declared but never referenced
+  	float damp=0;
+main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=12070 RO-data=4466 RW-data=52 ZI-data=2868  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Owen\Desktop\stm32\rtc\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
